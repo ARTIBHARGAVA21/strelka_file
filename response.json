@@ -1,0 +1,89 @@
+{
+    "file_id": "22355b3f-50b9-4a5a-9d3b-4612464efe9c",
+    "meta": {
+        "file_size": 18,
+        "iocs": [],
+        "vt_positives": []
+    },
+    "response": [
+        {
+            "file": {
+                "depth": 0,
+                "flavors": {
+                    "mime": [
+                        "text/plain"
+                    ]
+                },
+                "name": "sample.txt",
+                "scanners": [
+                    "ScanEntropy",
+                    "ScanFooter",
+                    "ScanHash",
+                    "ScanHeader",
+                    "ScanTlsh",
+                    "ScanUrl",
+                    "ScanYara"
+                ],
+                "size": 18,
+                "tree": {
+                    "node": "22355b3f-50b9-4a5a-9d3b-4612464efe9c",
+                    "root": "22355b3f-50b9-4a5a-9d3b-4612464efe9c"
+                }
+            },
+            "request": {
+                "attributes": {
+                    "filename": "sample.txt",
+                    "metadata": {
+                        "client_hostname": "3091729d4546",
+                        "client_name": "fileshot-webui",
+                        "client_user_name": "admin",
+                        "client_version": "2.43",
+                        "user_name": "admin"
+                    }
+                },
+                "client": "fileshot-webui",
+                "id": "22355b3f-50b9-4a5a-9d3b-4612464efe9c",
+                "time": 1740035978
+            },
+            "scan": {
+                "entropy": {
+                    "elapsed": 2.5e-05,
+                    "entropy": 3.0168757402419906
+                },
+                "footer": {
+                    "backslash": "wre48uyt05558u8u8u",
+                    "elapsed": 1.9e-05,
+                    "footer": "wre48uyt05558u8u8u"
+                },
+                "hash": {
+                    "elapsed": 0.002665,
+                    "md5": "28baeaafc641d0d6c20043000f29ff14",
+                    "sha1": "576a685f8f2b1a62c106085515640f6ba6bcf97b",
+                    "sha256": "f22f02cdcc2eff17b0114dbd9c574434be93367c46d88b883070b84d935431c0",
+                    "ssdeep": "3:1QgEtSn:a2n",
+                    "tlsh": "TNULL"
+                },
+                "header": {
+                    "backslash": "wre48uyt05558u8u8u",
+                    "elapsed": 2.4e-05,
+                    "header": "wre48uyt05558u8u8u"
+                },
+                "tlsh": {
+                    "elapsed": 1.5e-05
+                },
+                "url": {
+                    "elapsed": 6e-05
+                },
+                "yara": {
+                    "elapsed": 1.271819,
+                    "flags": [
+                        "compiled_load_error_could not open file \"/etc/strelka/yara/rules.compiled\"",
+                        "compiling_error_syntax_/etc/strelka/yara/rules/deprecated/Android/Android_FakeBank_Fanta.yar(17): invalid field name \"service\"",
+                        "no_rules_loaded"
+                    ],
+                    "rules_loaded": 0
+                }
+            }
+        }
+    ]
+}
